@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bismilah.tomirf.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Hotel"
+            android:label="@string/title_activity_hotel" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Restaurant"
+            android:label="@string/title_activity_restaurant" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.TempatIbadah"
+            android:label="@string/title_activity_tempat_ibadah" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Pom"
+            android:label="@string/title_activity_pom" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Kampus"
+            android:label="@string/title_activity_kampus" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.RumahSakit"
+            android:label="@string/title_activity_rumah_sakit" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Belanja"
+            android:label="@string/title_activity_belanja" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Wisata"
+            android:label="@string/title_activity_wisata" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Baturaden"
+            android:label="@string/title_activity_baturaden" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.Balkem"
+            android:label="@string/title_activity_balkem" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.AlunAlun"
+            android:label="@string/title_activity_alun_alun" />
+        <activity
+            android:name="com.bismilah.tomirf.myapplication.dashboard"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+#Wed Dec 27 13:56:58 ICT 2017
+base.0=E\:\\wisata\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

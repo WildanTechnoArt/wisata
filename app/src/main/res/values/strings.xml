@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wisata">Wisata</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_hotel">Hotel</string>
+    <string name="title_activity_restaurant">Restaurant</string>
+    <string name="title_activity_tempat_ibadah">TempatIbadah</string>
+    <string name="title_activity_pom">Pom</string>
+    <string name="title_activity_kampus">Kampus</string>
+    <string name="title_activity_rumah_sakit">RumahSakit</string>
+    <string name="title_activity_belanja">Belanja</string>
+    <string name="title_activity_baturaden">Baturaden</string>
+    <string name="title_activity_balkem">Balkem</string>
+    <string name="title_activity_alun_alun">AlunAlun</string>
+</resources>
